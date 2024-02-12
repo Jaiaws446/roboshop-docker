@@ -18,8 +18,8 @@ Services:
     - mongodb
 
   web:
-  image: web:1
-  ports:
-  - "80:80"    
-  depends_on:
-  - catalogue
+    image: web:1
+    ports:
+    - "80:80"    
+    depends_on:
+    - catalogue
