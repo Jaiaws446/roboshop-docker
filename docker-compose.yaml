@@ -3,7 +3,7 @@ networks:
     external:
       name: roboshop
 
-Services:
+services:
   # docker run -d --name mongodb --network=roboshop mongodb:1
   mongodb:
     image: mongodb:1
