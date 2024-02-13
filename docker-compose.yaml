@@ -23,3 +23,6 @@ services:
     - "80:80"    
     depends_on:
     - catalogue
+
+  redis:
+    image: redis
